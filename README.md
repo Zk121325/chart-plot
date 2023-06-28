@@ -3,7 +3,8 @@
 
 通过pandas读取excel表格数据创建了一个Figure class 需要用excel路径以及选择读取的列来初始化
 __init__(self, path, title=None, usecols=None): path是excel路径 usecols是选择需要读取的列数，usecols=[0, 1, 2]表示读取前三列
-figure的方法有
+
+figure的方法有：
 
 1.#bar_line(self, bars=1,lines=1,bar_color='r', line_color='g', marker='.', line_number=False,percent_bar=False,bar_number=False,percent_line=False)
 
