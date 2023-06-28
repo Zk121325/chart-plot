@@ -225,41 +225,22 @@ class Figure:
 
 
 
-figure1 = Figure('图4数据.xlsx', title='图4：公司营收规模逐渐提升', usecols=[0, 1, 2])
-figure1.bar_line(bars=1,lines=1,bar_color='r',line_number=True,percent_line=True)
-figure1 = Figure('图5数据.xlsx', title='图5：公司三费增速陆续进入健康所见通道', usecols=[0, 1, 2,3,4])
-figure1.lines(percentage=True)
-figure1.curves(percentage=True,grid=True)
-figure1 = Figure('图6数据.xlsx', title='图6：公司研发投入逐年提升，营收占比持续维持高位', usecols=[0, 1, 2])
-figure1.bar_line(bars=1,lines=1,bar_color='r',bar_number=True,percent_line=True)
-figure1 = Figure('图7数据.xlsx', title='图7：公司研发人员硕士及以上学历占比超77%', usecols=[0, 1])
-figure1.pie()
-figure1 = Figure('图5数据.xlsx', title='图5：公司三费增速陆续进入健康所见通道', usecols=[0, 1,3,4])
-figure1.bars(width=0.3,barsnumber=3,bar_number=True)
-figure1 = Figure('图5数据.xlsx', title='图5：公司三费增速陆续进入健康所见通道', usecols=[0, 1,3,4])
-figure1.bar_group(barsnumber=3,bar_number=True)
-figure1 = Figure('图4数据.xlsx', title='图4:公司营收规模逐渐提升', usecols=[0, 1,2])
-figure1.bar_curve(bars=1,lines=1,bar_color='r',percent_line=True)
+#figure1 = Figure('图4数据.xlsx', title='图4：公司营收规模逐渐提升', usecols=[0, 1, 2])
+#figure1.bar_line(bars=1,lines=1,bar_color='r',line_number=True,percent_line=True)
+#figure1 = Figure('图5数据.xlsx', title='图5：公司三费增速陆续进入健康所见通道', usecols=[0, 1, 2,3,4])
+#figure1.lines(percentage=True)
+#figure1.curves(percentage=True,grid=True)
+#figure1 = Figure('图6数据.xlsx', title='图6：公司研发投入逐年提升，营收占比持续维持高位', usecols=[0, 1, 2])
+#figure1.bar_line(bars=1,lines=1,bar_color='r',bar_number=True,percent_line=True)
+#figure1 = Figure('图7数据.xlsx', title='图7：公司研发人员硕士及以上学历占比超77%', usecols=[0, 1])
+#figure1.pie()
+#figure1 = Figure('图5数据.xlsx', title='图5：公司三费增速陆续进入健康所见通道', usecols=[0, 1,3,4])
+#figure1.bars(width=0.3,barsnumber=3,bar_number=True)
+#figure1 = Figure('图5数据.xlsx', title='图5：公司三费增速陆续进入健康所见通道', usecols=[0, 1,3,4])
+#figure1.bar_group(barsnumber=3,bar_number=True)
+#figure1 = Figure('图4数据.xlsx', title='图4:公司营收规模逐渐提升', usecols=[0, 1,2])
+#figure1.bar_curve(bars=1,lines=1,bar_color='r',percent_line=True)
 
-#figure1.bars()
-#figure1.lines()
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
-
-# import plotly.graph_objects as go
-#
-# # 数据
-# labels = ['A', 'B', 'C', 'D']
-# values = [15, 30, 45, 10]
-#
-# # 创建立体饼图
-# fig = go.Figure(data=[go.Pie(labels=labels, values=values)])
-#
-# # 设置立体效果
-# fig.update_traces(hole=.4, hoverinfo="label+percent+name")
-
-# 显示图形
-# fig.show()
 
 
 
